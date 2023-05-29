@@ -16,7 +16,10 @@ class CreateAndDestroy{
             cout << "Object " << objectID << "  constructor runs  " << objectMsg << endl;
         }
 
-        /* alt gr + ì per il carattere tilde ( ~ ) */
+        /* for tilde character ( ~ ):
+        - Linux: alt gr + ì 
+        - Windows: alt + 1 + 2 + 6
+         */
         ~CreateAndDestroy(){
             cout << ( (objectID == 1 || objectID == 6) ? "\n" : "" );
 
